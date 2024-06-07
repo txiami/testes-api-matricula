@@ -19,7 +19,6 @@ Projeto de testes automatizados utilizando Cypress, disciplina de Gerenciamento 
 para que consiga baixar as dependências do projeto.
 - Ter instalado o [Intelij Idea Community](https://www.jetbrains.com/idea/download/) para rodar a api java com spring boot localmente
 - Ter instalado o [GIT](https://www.jetbrains.com/idea/download/) para clonagem dos repositorios.
-- Ter instalado o [Cypress](https://www.cypress.io/)
 
 
 ### Quais comandos precisam ser executados e como devem ser executados para executar os testes
