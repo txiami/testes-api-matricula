@@ -21,7 +21,7 @@ describe('Consulta de matrícula com contrato quitado', () => {
             expect(response.body.student).to.have.property('birthDate').and.to.be.a('string') 
             expect(response.body.student).to.have.property('cpf').and.to.be.a('string')
 
-            expect(response.body.tuition).to.not.have.property('dueDate')
+            expect(response.body.tuition).to.have.property('dueDate',null)
 
 
 

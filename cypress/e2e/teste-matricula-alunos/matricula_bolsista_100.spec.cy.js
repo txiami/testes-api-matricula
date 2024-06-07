@@ -19,9 +19,9 @@ describe('Consulta de matrícula de bolsista 100%', () => {
             expect(response.body.student).to.have.property('birthDate').and.to.be.a('string') 
             expect(response.body.student).to.have.property('cpf').and.to.be.a('string')
             
-            expect(response.body.tuition).to.not.have.property('amount').and.to.be.a('number') 
-            expect(response.body.tuition).to.not.have.property('formattedAmount').and.to.be.a('string') 
-            expect(response.body.tuition).to.not.have.property('dueDate').and.to.be.a('string') 
+            expect(response.body.tuition).to.have.property('amount',0).and.to.be.a('number') 
+            expect(response.body.tuition).to.have.property('formattedAmount',"R$ 0.00").and.to.be.a('string') 
+            expect(response.body.tuition).to.have.property('dueDate',null)
         })
     })
 })

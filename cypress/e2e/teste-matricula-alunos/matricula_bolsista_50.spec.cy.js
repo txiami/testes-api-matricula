@@ -20,7 +20,7 @@ describe('Consulta de matrícula de bolsista 50%', () => {
             expect(response.body.student).to.have.property('lastName').and.to.be.a('string') 
             expect(response.body.student).to.have.property('birthDate').and.to.be.a('string') 
             expect(response.body.student).to.have.property('cpf').and.to.be.a('string')
-            expect(response.body.tuition).to.not.have.property('status','BOLSISTA_50').and.to.be.a('string')
+            expect(response.body.tuition).to.not.have.property('status','BOLSISTA_50')
         })
     })
 })
